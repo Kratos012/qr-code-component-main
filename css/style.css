@@ -12,25 +12,31 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
-  width: 100%;
+}
+
+main {
+  max-width: 340px;
+  margin: 0 auto;
 }
 
 /* Card Style */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
-  height: 530px;
-  margin:90px auto;
-  width: 340px;
+  padding: 20px;
+  width: 100%;
 
 }
 /* Hearder/image-code */
 img {
   border-radius: 10px;
+  display: block;
   width: 100%;
-  height: 100%
-
 }
 .card-header {
   width: 300px;
@@ -38,14 +44,9 @@ img {
   margin: auto;
 }
 
-/* Card Body */
-.card-body {
-  width: 300px;
-  margin: auto;
-}
-
 /* Card Text */
 .card-heading {
+  color: hsl(218, 44%, 22%);
   font-weight: 700;
   font-size: 1.5rem;
   margin: 20px 0;
@@ -55,19 +56,23 @@ img {
   color: hsl(220, 15%, 55%);
   font-size: 1.1rem;
   font-weight: 400;
+  margin-bottom: 15px;
 }
 
 /* Footer attribution */
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
 .attribution {
   font-size: 11px;
+  margin-top: 9.3rem;
+  position: absolute;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-@media (min-width: 800px) {
-  .card {
-    margin: 150px auto;
-  }
 }
