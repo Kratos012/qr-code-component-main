@@ -1,0 +1,73 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+  border: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing:border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Card Style */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  height: 530px;
+  margin:90px auto;
+  width: 340px;
+
+}
+/* Hearder/image-code */
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%
+
+}
+.card-header {
+  width: 300px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/* Card Body */
+.card-body {
+  width: 300px;
+  margin: auto;
+}
+
+/* Card Text */
+.card-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.card-paragraph {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* Footer attribution */
+.attribution {
+  font-size: 11px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .card {
+    margin: 150px auto;
+  }
+}
